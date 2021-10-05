@@ -1,0 +1,40 @@
+.students {
+  max-width: 30vw;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.6);
+  margin: 10px auto;
+}
+
+.hold {
+  height: 50vh;
+  overflow-y: scroll;
+}
+
+.student {
+  border: 1px solid #ccc;
+  width: 70%;
+  margin: 10px auto;
+}
+
+.student__details {
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+}
+
+.student__details li {
+  color: teal;
+  padding: 3px;
+}
+
+.student__details span {
+  color: green;
+  display: block;
+  padding: 3px;
+}
+
+.student__details small {
+  color: maroon;
+  font-style: italic;
+  padding: 3px;
+}

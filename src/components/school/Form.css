@@ -1,0 +1,11 @@
+/* .default {
+  background: #e6e6e6;
+} */
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
