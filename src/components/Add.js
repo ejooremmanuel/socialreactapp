@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Add = ({ Icon, iconName, color }) => {
+const Add = ({ iconName, color, children }) => {
   const classes = useStyles();
 
   return (
@@ -46,7 +46,7 @@ const Add = ({ Icon, iconName, color }) => {
       }
       aria-label="add"
     >
-      <Icon />
+      {children}
     </Fab>
   );
 };

@@ -26,9 +26,15 @@ function App() {
           <Right />
         </Grid>
       </Grid>
-      <Add Icon={AddIcon} iconName="post" color="secondary" />
-      <Add Icon={ForumRoundedIcon} iconName="chat" color="primary" />
-      <Add Icon={PeopleOutlineRoundedIcon} iconName="friends" color="warning" />
+      <Add iconName="post" color="secondary">
+        <AddIcon style={{ color: "white" }} />
+      </Add>
+      <Add iconName="chat" color="primary">
+        <ForumRoundedIcon style={{ color: "white" }} />
+      </Add>
+      <Add iconName="friends" color="warning">
+        <PeopleOutlineRoundedIcon style={{ color: "white" }} />
+      </Add>
     </div>
   );
 }
