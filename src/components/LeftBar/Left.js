@@ -19,7 +19,7 @@ import { alpha } from "@mui/system";
 
 const useStyles = makeStyles((theme) => ({
   container: {
-    height: "100%",
+    height: "100vh",
     paddingTop: theme.spacing(10),
     backgroundColor: theme.palette.primary.main,
     color: "white",
@@ -33,9 +33,6 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("sm")]: {
       marginBottom: theme.spacing(3),
       cursor: "pointer",
-      "&:hover": {
-        backgroundColor: "none",
-      },
     },
     "&:hover": {
       backgroundColor: alpha(theme.palette.common.white, 0.15),

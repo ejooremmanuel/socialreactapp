@@ -3,7 +3,6 @@ import React from "react";
 import Post from "../Post";
 const useStyles = makeStyles((theme) => ({
   container: {
-    height: "100vh",
     paddingTop: theme.spacing(10),
   },
 }));
